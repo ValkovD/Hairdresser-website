@@ -1,0 +1,678 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(21, 21, 21)
+}
+
+main {
+  font-family: 'Old Standart TT', serif;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.header {
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  color: #fff;
+  overflow: auto;
+  border-top: #fff 1px solid;
+  border-bottom: #fff 1px solid;
+  /* padding: 5px; */
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 142px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-white {
+  background-color: #fff;
+  color: black;
+}
+
+.txt-black {
+  color: black;
+}
+
+.header .logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header .links ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.header .links a,
+i {
+  padding: 30px 30px;
+}
+
+.header .links a:hover {
+  /* background: rgb(63, 61, 61); */
+  border-bottom: 1px solid rgb(210, 79, 79);
+}
+
+.header .links i:hover {
+  color: rgba(205, 144, 32, 0.878);
+  cursor: pointer;
+}
+
+
+
+/* LOGO >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.L1 {
+  transform: translate(-18px, 25px) rotate(-25deg);
+  padding-top: 5px;
+}
+
+.L2 {
+  transform: translate(-14px, 14px) rotate(-20deg);
+}
+
+.L3 {
+  transform: translate(-9px, 9px) rotate(-15deg);
+}
+
+.L4 {
+  transform: translate(-5px, 5px) rotate(-10deg);
+}
+
+.whitespace {
+  transform: translate(-2px, 2px) rotate(-5deg);
+  /* transform: translate(-6px, 40px) rotate(20deg); */
+}
+
+.L5 {
+  transform: translate(-3px, 1px) rotate(-6deg);
+}
+
+.L6 {
+  transform: translate(2px, 2px) rotate(5deg);
+}
+
+.L7 {
+  transform: translate(5px, 5px) rotate(10deg);
+}
+
+.L8 {
+  transform: translate(9px, 9px) rotate(15deg);
+}
+
+.L9 {
+  transform: translate(12px, 18px) rotate(20deg);
+}
+
+.L10 {
+  transform: translate(12px, 26px) rotate(25deg);
+  padding-bottom: 15px;
+}
+
+/* LOGO END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Navbar  END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+span {
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+.logo a {
+  font-family: 'Whisper', cursive;
+  font-size: 50px;
+  text-decoration: none;
+
+}
+
+/* SHOWCASE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#showcase {
+  position: absolute;
+  top: 90px;
+  left: 500px;
+}
+
+/* .container-showcase {
+  text-align: center;
+} */
+
+.showcase-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  height: 600px;
+}
+
+.showcase-body:before {
+  content: '';
+  background: url('/img/pexels-anastasiya-gepp-2065203-removebg-preview.png') no-repeat top center/cover;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 320px;
+  left: 130px;
+  width: 700px;
+  height: 910px;
+  z-index: -1;
+}
+
+#showcase h2 {
+  margin: 30px auto;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 210px;
+}
+
+#person {
+  align-self: start;
+}
+
+#person img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-left {
+  justify-self: left;
+  align-self: center;
+}
+
+.info-left a:hover {
+  text-decoration-line: underline;
+}
+
+.info-right {
+  justify-self: right;
+  align-self: center;
+}
+
+.info-right .salon-openings:hover:hover {
+  text-decoration: underline solid white;
+  border: #fff solid 2px;
+  color: #fff;
+}
+
+#showcase .info-left:hover {
+  cursor: pointer;
+}
+
+
+
+#showcase .info-right .find-nearest {
+  position: relative;
+}
+
+.content-right:hover {
+  border-bottom: #fff 2px solid;
+}
+
+.find-nearest #plus {
+  position: absolute;
+  top: 107px;
+  left: 327px;
+}
+
+#showcase .info-right .find-nearest {
+
+
+  border: 3px solid rgba(205, 144, 32, 0.878);
+  text-align: left;
+  padding: 20px;
+}
+
+#plus {
+
+  display: block;
+  float: right;
+  width: 38px;
+  height: 38px;
+  background-color: rgba(205, 144, 32, 0.878);
+
+  text-align: center;
+  font-size: 40px;
+}
+
+.salon-openings:hover {
+  text-decoration: solid;
+
+}
+
+/* SHOWCASE >>END>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* SECTION 1 awarged >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#awarded {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+#awarded i {
+  color: rgb(210, 79, 79);
+}
+
+#awarded p {
+  font-size: 25px;
+}
+
+/* SECTION 1 awarged >END>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/*  SECTION 2 OUR PRODUCTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.products {
+  text-align: center;
+  padding: 40px;
+}
+
+.products h2 {
+  margin-top: 15px;
+}
+
+.products i {
+  color: rgb(210, 79, 79);
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-image img {
+  width: 500px;
+  height: 500px;
+
+  object-fit: contain;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image:after {
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.product-image:hover::after {
+  opacity: 0.6;
+}
+
+.product-image .btn-white {
+  /* display: block; */
+  position: absolute;
+  top: 170px;
+  left: 125px;
+  z-index: 1;
+}
+
+.product-image .btn-black {
+  /* display: inline-block; */
+  position: absolute;
+  top: 240px;
+  left: 125px;
+  z-index: 1;
+}
+
+.products a:hover {
+  opacity: 0.7;
+}
+
+.product p {
+  font-size: 30px;
+}
+
+.product p+p {
+  color: rgb(210, 79, 79);
+  font-size: 25px;
+
+}
+
+/*  SECTION 2 OUR PRODUCTS END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* SECTION 3 ANTI AGE YOUR HAIR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.anti-age {
+  color: #fff;
+  /* background-color: #fff; */
+  background: url('/img/anti-age2.jpg') no-repeat right center/cover;
+}
+
+.anti-age .flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30%;
+  /* line-height: 20px; */
+}
+
+.anti-age h4 {
+  font-size: 22px;
+}
+
+.anti-age h2 {
+  margin: 20px 0;
+  font-size: 50px;
+}
+
+.anti-age p {
+  font-size: 20px;
+}
+
+.anti-age a:hover {
+  background: #fff;
+  color: gray;
+}
+
+/* SECTION 3 ANTI AGE YOUR HAIR END>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* NEW PRODUCT  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.new-product {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 10px 0;
+}
+
+.product {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+
+}
+
+.new-product img {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+#new {
+  width: 300px;
+  height: 300px;
+}
+
+.new-product h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.new-product p {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.new-product iframe {
+  padding-bottom: 40px;
+}
+
+.new-product a:hover {
+  background: rgb(76, 75, 75);
+  color: #fff;
+}
+
+/* NEW PRODUCT  END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* BEAUTIFUL HAIR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.beautiful-hair {
+  display: flex;
+  flex-direction: column;
+  background-image: url('/img/healthy_you.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 23%;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.beautiful-hair p {
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.beautiful-hair h2 {
+  font-size: 45px;
+  /* margin-top: 20px;s */
+  margin-bottom: 20px;
+}
+
+.beautiful-hair a:hover {
+  background: #fff;
+  color: gray;
+}
+
+/* BEAUTIFUL HAIR END>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* WORTH TO LOOK >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.worth {
+  text-align: center;
+  padding: 60px 5px;
+
+}
+
+.worth-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 600px;
+  width: 600px;
+}
+
+.worth p {
+  font-size: 20px;
+  margin: 40px 20px 0;
+}
+
+.worth-img {
+  background-color: black;
+  height: 600px;
+  width: 600px;
+}
+
+.worth h2 {
+  font-size: 55px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.worth h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Raleway', sans-serif;
+}
+
+.worth a:hover {
+  text-decoration-line: underline;
+}
+
+/* WORTH TO LOOK END>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* MEET STYLIST >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.meet-stylist {
+  height: 700px;
+  display: flex;
+  position: relative;
+}
+
+
+.meet-stylist>div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.professional {
+  background: url('/img/meetStylistPromotionExplore/meetStylistWoman.jpg') no-repeat center center/cover;
+  /* z-index: 1; */
+}
+
+.promotion {
+  background: url('/img/meetStylistPromotionExplore/nailTreatment.jpg') no-repeat center center/cover;
+}
+
+.explore {
+  background: url('/img/meetStylistPromotionExplore/manHaircut.jpg') no-repeat center center/cover;
+}
+
+.meet-stylist:after {
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+
+.meet-stylist a,
+h2,
+span,
+p {
+  z-index: 1;
+}
+
+.meet-stylist a {
+  margin-top: 350px;
+
+}
+
+.meet-stylist h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.meet-stylist .line {
+  margin-top: 30px;
+}
+
+.meet-stylist p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* MEET STYLIST END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.footer {
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.footer>div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  padding: 30px 5px;
+}
+
+.footer p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.footer a {
+  margin-bottom: 20px;
+}
+
+.footer .subscribe {
+  margin-bottom: 70px;
+}
+
+.footer .newsletter button {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(21, 21, 21);
+  color: #fff;
+  border: #fff solid 2px;
+  margin-left: 10px;
+}
+
+.footer .opening-time {
+  border: #fff solid 3px;
+  height: 320px;
+  align-self: center;
+  padding: 20px;
+  line-height: 30px;
+}
+
+/* FOOTER END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* DEYAN VALKOV >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.deyan-valkov {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: #fff solid 1px;
+  border-bottom: #fff solid 1px;
+}
+
+.deyan-valkov i {
+  padding: 15px;
+  border-left: #fff solid 1px;
+}
+
+.disclaimer {
+  text-align: center;
+}
+
+.disclaimer span,
+.disclaimer p a {
+  color: red;
+}
+
+.icons:last-child {
+  border-right: #fff solid 1px;
+}
+
+/* DEYAN VALKOV END >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */

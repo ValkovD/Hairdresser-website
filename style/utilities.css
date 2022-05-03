@@ -1,0 +1,146 @@
+/* Utility Clases */
+
+
+.bg-dark {
+  color: #fff;
+}
+
+.bg-white {
+  background: rgb(243, 242, 242);
+  color: black;
+}
+
+.h-big {
+  height: 950px;
+
+}
+
+.h-mid {
+  height: 670px;
+}
+
+.h-small {
+  height: 300px;
+}
+
+/* .container-full-width {
+  margin: auto;
+  overflow: auto;
+  max-width: none;
+} */
+
+/* .container {
+  margin: auto;
+  overflow: auto;
+  max-width: 1500px;
+} */
+
+.regular-white {
+  font-size: 40px;
+  color: #fff;
+}
+
+.regular-black {
+  font-size: 40px;
+  color: black;
+}
+
+.slim-white {
+  font-size: 30px;
+}
+
+.large-orange {
+  font-size: 60px;
+  color: rgba(205, 144, 32, 0.878);
+  font-weight: 900;
+}
+
+.btn {
+  display: inline-block;
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
+.btn-sml {
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
+.btn-mini {
+  display: inline-block;
+  width: 120px;
+  height: 39px;
+  text-align: center;
+  padding: 7.8px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.red {
+  background-color: rgb(210, 79, 79);
+}
+
+.btn-white-transp {
+  border: #fff solid 2px;
+  color: #fff;
+}
+
+.btn-black-transp {
+  border: black solid 3px;
+  color: black;
+}
+
+.transperant {
+  border: rgba(205, 144, 32, 0.878) 2px solid;
+  color: rgba(205, 144, 32, 0.878);
+}
+
+.btn-hidden {
+  display: none;
+}
+
+.btn-black {
+  background-color: black;
+}
+
+.btn-white {
+  background-color: white;
+  color: gray;
+}
+
+.line {
+  width: 50px;
+  height: 1px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+
+.inp-sml {
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background-color: black;
+  border: #fff solid 3px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.inp-mini {
+  display: inline-block;
+  width: 120px;
+  height: 39px;
+  text-align: center;
+  padding: 7.8px;
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: rgb(21, 21, 21);
+  color: #fff;
+  border: #fff solid 2px;
+}
